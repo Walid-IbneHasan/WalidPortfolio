@@ -123,11 +123,11 @@ const testimonials = [
   {
     testimonial:
       "Walid was an exceptional Next.js developer at Achintya Solutions, consistently delivering innovative and high-quality work.",
-    name: "Aman Gupta",
+    name: "Achintya",
     designation: "CEO",
     company: "Achintya Solutions",
     image:
-      "https://media.licdn.com/dms/image/v2/D4D03AQHz3MBu6AVwxg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1678910634886?e=1729728000&v=beta&t=1kJfXCjhCbf0E5iL8Y3ZJd5BjvkyP9p8VLEPHgR9wDM",
+      "https://media.licdn.com/dms/image/v2/D4D0BAQFdh-Y6aYX9_g/company-logo_100_100/company-logo_100_100/0/1714597349521/achintyasolutions_logo?e=1732147200&v=beta&t=goAQRPUh6nPetJ3O8Oq1fu53g8E1SlUfFXUQaFdHhpY",
   },
   {
     testimonial:
