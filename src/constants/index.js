@@ -18,6 +18,7 @@ import {
   CarShowcase,
   NoteCreation,
   achintya,
+  SplitBill,
 } from "../assets";
 
 export const navLinks = [
@@ -220,6 +221,28 @@ const projects = [
     image: CarShowcase,
     source_code_link: "https://github.com/Walid-IbneHasan/Car-Showcase",
     live_link: "https://car-showcase-beta-ashen.vercel.app/",
+  },
+  {
+    name: "Split Bill",
+    description:
+      "About This is a simple react project where I can add friends and split the bill with them. In this project I can also see how much I have to pay to a certain friend considering who is paying the bill. This is a single page project to practice my react skills.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "state-management",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hooks",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: SplitBill,
+    source_code_link: "https://github.com/Walid-IbneHasan/Split-Bill",
+    live_link: "https://split-bill-hazel.vercel.app/",
   },
 ];
 

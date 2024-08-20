@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import { IoLogoLinkedin } from "react-icons/io5";
+import { IoLogoGithub } from "react-icons/io";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -61,6 +63,22 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li>
+            <a href="https://www.linkedin.com/in/walid-ibne-hasan-1288b4290/">
+              <IoLogoLinkedin
+                size={25}
+                className="hover:text-blue-400 cursor-pointer"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Walid-IbneHasan">
+              <IoLogoGithub
+                size={25}
+                className="cursor-pointer hover:opacity-50"
+              />
+            </a>
+          </li>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -91,6 +109,22 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li>
+                <a href="https://www.linkedin.com/in/walid-ibne-hasan-1288b4290/">
+                  <IoLogoLinkedin
+                    size={25}
+                    className="hover:text-blue-400 cursor-pointer"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Walid-IbneHasan">
+                  <IoLogoGithub
+                    size={25}
+                    className="cursor-pointer hover:opacity-50"
+                  />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
