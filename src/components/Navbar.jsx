@@ -64,7 +64,10 @@ const Navbar = () => {
             </li>
           ))}
           <li>
-            <a href="https://www.linkedin.com/in/walid-ibne-hasan-1288b4290/">
+            <a
+              href="https://www.linkedin.com/in/walid-ibne-hasan-1288b4290/"
+              target="_blank"
+            >
               <IoLogoLinkedin
                 size={25}
                 className="hover:text-blue-400 cursor-pointer"
@@ -72,7 +75,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/Walid-IbneHasan">
+            <a href="https://github.com/Walid-IbneHasan" target="_blank">
               <IoLogoGithub
                 size={25}
                 className="cursor-pointer hover:opacity-50"
@@ -110,7 +113,10 @@ const Navbar = () => {
                 </li>
               ))}
               <li>
-                <a href="https://www.linkedin.com/in/walid-ibne-hasan-1288b4290/">
+                <a
+                  href="https://www.linkedin.com/in/walid-ibne-hasan-1288b4290/"
+                  target="_blank"
+                >
                   <IoLogoLinkedin
                     size={25}
                     className="hover:text-blue-400 cursor-pointer"
@@ -118,7 +124,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Walid-IbneHasan">
+                <a href="https://github.com/Walid-IbneHasan" target="_blank">
                   <IoLogoGithub
                     size={25}
                     className="cursor-pointer hover:opacity-50"
