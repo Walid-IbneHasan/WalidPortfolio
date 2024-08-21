@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import { IoLogoLinkedin } from "react-icons/io5";
+import { IoLogoLinkedin, IoMail } from "react-icons/io5";
 import { IoLogoGithub } from "react-icons/io";
 
 const Navbar = () => {
@@ -65,6 +65,15 @@ const Navbar = () => {
           ))}
           <li>
             <a
+              href="https://drive.google.com/file/d/13NKh9y0BmfCYhiPRMSxBuBEiYNPELci9/view?usp=drive_link"
+              className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+              target="_blank"
+            >
+              Resume
+            </a>
+          </li>
+          <li>
+            <a
               href="https://www.linkedin.com/in/walid-ibne-hasan-1288b4290/"
               target="_blank"
             >
@@ -114,21 +123,29 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href="https://www.linkedin.com/in/walid-ibne-hasan-1288b4290/"
+                  href="https://drive.google.com/file/d/13NKh9y0BmfCYhiPRMSxBuBEiYNPELci9/view?usp=drive_link"
+                  className="text-secondary font-poppins font-medium cursor-pointer text-[16px]"
                   target="_blank"
                 >
-                  <IoLogoLinkedin
-                    size={25}
-                    className="hover:text-blue-400 cursor-pointer"
-                  />
+                  Resume
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Walid-IbneHasan" target="_blank">
-                  <IoLogoGithub
-                    size={25}
-                    className="cursor-pointer hover:opacity-50"
-                  />
+                <a
+                  href="https://www.linkedin.com/in/walid-ibne-hasan-1288b4290/"
+                  target="_blank"
+                  className="font-poppins font-medium cursor-pointer text-[16px] text-secondary"
+                >
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Walid-IbneHasan"
+                  target="_blank"
+                  className="font-poppins font-medium cursor-pointer text-[16px] text-secondary "
+                >
+                  Github
                 </a>
               </li>
             </ul>
