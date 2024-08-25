@@ -19,6 +19,7 @@ import {
   NoteCreation,
   achintya,
   SplitBill,
+  iPhoneSiteRemodified,
 } from "../assets";
 
 export const navLinks = [
@@ -157,19 +158,16 @@ const projects = [
       "This project showcases a modern UI/UX design built with React 18 and Tailwind CSS, featuring a new-generation interface and smooth parallax effects for an enhanced user experience.",
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
+
       {
-        name: "nextjs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
       {
-        name: "parallax",
+        name: "Parallax",
         color: "blue-text-gradient",
       },
     ],
@@ -184,15 +182,15 @@ const projects = [
       "A full-stack application designed to help users create and manage notes efficiently. This project features:",
     tags: [
       {
-        name: "nextjs",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "typescript",
+        name: "Typescript",
         color: "pink-text-gradient",
       },
     ],
@@ -206,21 +204,44 @@ const projects = [
       "A comprehensive front-end application built with Next.js 14, designed for car enthusiasts to search and explore detailed information about various cars.",
     tags: [
       {
-        name: "nextjs",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "api",
+        name: "API",
         color: "green-text-gradient",
       },
       {
-        name: "headles-cms",
+        name: "Headles-cms",
         color: "pink-text-gradient",
       },
     ],
     image: CarShowcase,
     source_code_link: "https://github.com/Walid-IbneHasan/Car-Showcase",
     live_link: "https://car-showcase-beta-ashen.vercel.app/",
+  },
+  {
+    name: "iPhone Site Remodification",
+    description:
+      "Recreate the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects. From custom animations to animated 3D models",
+    tags: [
+      {
+        name: "GSAP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: iPhoneSiteRemodified,
+    source_code_link:
+      "https://github.com/Walid-IbneHasan/iphone-site-remodified",
+    live_link: "https://iphone-site-remodified-rub1.vercel.app/",
   },
   {
     name: "Split Bill",
