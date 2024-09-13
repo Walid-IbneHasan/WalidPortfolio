@@ -20,6 +20,7 @@ import {
   achintya,
   SplitBill,
   iPhoneSiteRemodified,
+  itbee,
 } from "../assets";
 
 export const navLinks = [
@@ -109,7 +110,7 @@ const experiences = [
     title: "Next JS Developer",
     company_name: "Achintya Solutions",
     icon: achintya,
-    iconBg: "#383E56",
+    iconBg: "#fff",
     date: "April 2024-August 2024",
     points: [
       "Developing and maintaining web applications using ReactJS, NextJS and other related technologies.",
@@ -117,6 +118,20 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
       "Integrated API services to fetch data from the server and display it on the client-side.",
+    ],
+  },
+  {
+    title: "Junior Front End Developer",
+    company_name: "ITbee Solution",
+    icon: itbee,
+    iconBg: "#383E56",
+    date: "September 09- Ongoing",
+    points: [
+      "Building and maintaining web applications using ReactJS, NextJS, and related technologies.",
+      "Collaborating with designers, product managers, and developers to deliver high-quality solutions.",
+      "Developing responsive and adaptive designs while ensuring compatibility across various browsers.",
+      "Engaging in code reviews and offering constructive feedback to improve code quality.",
+      "Integrating APIs to retrieve and display server-side data on the client interface.",
     ],
   },
 ];

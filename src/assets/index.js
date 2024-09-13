@@ -35,6 +35,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import achintya from "./AchintyaLogo.webp";
 import iPhoneSiteRemodified from "./iPhoneSiteRemodified.png";
+import itbee from "./itbee.jpeg";
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   achintya,
   SplitBill,
   iPhoneSiteRemodified,
+  itbee,
 };
