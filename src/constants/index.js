@@ -21,6 +21,7 @@ import {
   SplitBill,
   iPhoneSiteRemodified,
   itbee,
+  CodeSync5,
 } from "../assets";
 
 export const navLinks = [
@@ -191,27 +192,29 @@ const projects = [
       "https://github.com/Walid-IbneHasan/NewGenAttractiveUI-Site",
     live_link: "https://new-gen-attractive-ui-site.vercel.app/",
   },
+
   {
-    name: "Note Creation",
+    name: "CodeSync5",
     description:
-      "A full-stack application designed to help users create and manage notes efficiently. This project features:",
+      "A website for a startup company that provides software development services. The website is built with Next.js 14, featuring a modern design and smooth animations using GSAP.",
     tags: [
       {
-        name: "Nextjs",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
+
       {
-        name: "Mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Typescript",
+        name: "GSAP",
         color: "pink-text-gradient",
       },
+      {
+        name: "ShadCN",
+        color: "blue-text-gradient",
+      },
     ],
-    image: NoteCreation,
-    source_code_link: "https://github.com/Walid-IbneHasan/Note-Creation",
-    live_link: "https://note-creation.onrender.com/",
+    image: CodeSync5,
+    source_code_link: "https://github.com/Chy-Zaber-Bin-Zahid/It-Firm",
+    live_link: "https://it-firm-five.vercel.app/",
   },
   {
     name: "Car Showcase",
@@ -257,6 +260,28 @@ const projects = [
     source_code_link:
       "https://github.com/Walid-IbneHasan/iphone-site-remodified",
     live_link: "https://iphone-site-remodified-rub1.vercel.app/",
+  },
+  {
+    name: "Note Creation",
+    description:
+      "A full-stack application designed to help users create and manage notes efficiently. This project features:",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: NoteCreation,
+    source_code_link: "https://github.com/Walid-IbneHasan/Note-Creation",
+    live_link: "https://note-creation.onrender.com/",
   },
   {
     name: "Split Bill",
