@@ -214,7 +214,7 @@ const projects = [
     ],
     image: CodeSync5,
     source_code_link: "https://github.com/Chy-Zaber-Bin-Zahid/It-Firm",
-    live_link: "https://it-firm-five.vercel.app/",
+    live_link: "https://codesync5.vercel.app/",
   },
   {
     name: "Car Showcase",
