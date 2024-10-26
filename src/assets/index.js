@@ -37,6 +37,7 @@ import achintya from "./AchintyaLogo.webp";
 import iPhoneSiteRemodified from "./iPhoneSiteRemodified.png";
 import itbee from "./itbee.jpeg";
 import CodeSync5 from "./CodeSync5.png";
+import LandingPage from "./LandingPage.png";
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   iPhoneSiteRemodified,
   itbee,
   CodeSync5,
+  LandingPage,
 };

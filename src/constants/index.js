@@ -22,6 +22,7 @@ import {
   iPhoneSiteRemodified,
   itbee,
   CodeSync5,
+  LandingPage,
 } from "../assets";
 
 export const navLinks = [
@@ -159,9 +160,9 @@ const testimonials = [
   {
     testimonial:
       "Walid combines deep technical expertise with a strong work ethic, consistently delivering exceptional results as I've noticed during his University period.",
-    name: "Nafis Mostofa",
-    designation: "CEO",
-    company: "Rose Tech",
+    name: "Sagir Ahmed",
+    designation: "Senior Developer",
+    company: "ITBee Solutions",
     image:
       "https://media.licdn.com/dms/image/v2/D5635AQHe9d_MRl41bQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1715137251142?e=1724655600&v=beta&t=h3POhja_51N7yIWXM3Ub0_rVzBfVPkAqhZgnD0GQ4zQ",
   },
@@ -222,7 +223,7 @@ const projects = [
       "A comprehensive front-end application built with Next.js 14, designed for car enthusiasts to search and explore detailed information about various cars.",
     tags: [
       {
-        name: "Nextjs",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
@@ -267,11 +268,11 @@ const projects = [
       "A full-stack application designed to help users create and manage notes efficiently. This project features:",
     tags: [
       {
-        name: "Nextjs",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "Mongodb",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
@@ -282,6 +283,28 @@ const projects = [
     image: NoteCreation,
     source_code_link: "https://github.com/Walid-IbneHasan/Note-Creation",
     live_link: "https://note-creation.onrender.com/",
+  },
+  {
+    name: "Landing Page",
+    description:
+      "This is a landing page design that I did for a client. The design is simple and clean, with a focus on the product and its features.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: LandingPage,
+    source_code_link: "https://github.com/Walid-IbneHasan/Landing-Page",
+    live_link: "https://landing-page-mauve-phi.vercel.app/",
   },
   {
     name: "Split Bill",
