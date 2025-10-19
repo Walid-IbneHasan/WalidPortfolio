@@ -44,10 +44,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src="/logo.png" alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Walid &nbsp;
-            <span className="sm:block hidden"> | NextJS Developer</span>
+            <span className="sm:block hidden"> </span>
           </p>
         </Link>
 
@@ -65,7 +65,7 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="https://drive.google.com/file/d/1s-nk-vQqxLbUEVill66gFFGBKOE-0kEn/view?usp=sharing"
+              href="https://drive.google.com/drive/u/0/folders/1GqdUGFabwVpHk7RHuaUyhD7Di5T4-oJU"
               className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
               target="_blank"
             >

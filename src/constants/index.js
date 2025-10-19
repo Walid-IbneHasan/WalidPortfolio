@@ -23,6 +23,16 @@ import {
   itbee,
   CodeSync5,
   LandingPage,
+  zerobyte,
+  remoteintegrity,
+  python,
+  django,
+  redis,
+  aws,
+  PowerBI,
+  AquaWare,
+  CodeNerve,
+  MCQ,
 } from "../assets";
 
 export const navLinks = [
@@ -42,35 +52,43 @@ export const navLinks = [
 
 const services = [
   {
-    title: "FrontEnd Development",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: "3D Web Development",
+    title: "Python Developer",
     icon: mobile,
   },
   {
-    title: "API Integration",
+    title: "Data Analyst",
     icon: backend,
   },
   {
-    title: "NextJS Fullstack",
+    title: "AI/ML Engineer",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Django",
+    icon: django,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Power BI",
+    icon: PowerBI,
+  },
+  {
+    name:"Redis",
+    icon:redis
+  },
+  {
+    name: "AWS",
+    icon:aws
   },
   {
     name: "TypeScript",
@@ -89,27 +107,59 @@ const technologies = [
     icon: tailwind,
   },
 
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+ 
   {
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  
 ];
 
 const experiences = [
   {
-    title: "Next JS Developer",
+    title: "Software Engineer, Data Analyst",
+    company_name: "Remote Integrity",
+    icon: remoteintegrity,
+    iconBg: "#000090",
+    date: "August 2025- Ongoing",
+    points: [
+      "Processed millions of Water System data of government of Netherlands and its provinces",
+      "Prepared Power BI and Superset dashboards and reports for better visualization and understanding of data trends.",
+      "Created web application based on all of these data using DRF and NextJS RTK Query .",
+      "Cloud deployment and management using AWS services, Docker, Kubernetes and Terraform.",
+      "Automated data pipelines using Python scripts and Airflow to streamline data processing tasks.",
+    ],
+  },
+  {
+    title: "Junior Backend Developer",
+    company_name: "Zero Byte",
+    icon: zerobyte,
+    iconBg: "#87CEEB",
+    date: "January 2025- June 2025",
+    points: [
+      "Implemented Payment API(Bkash API) , MIM SMS API, Steadfast API, Pathao API ",
+      "Used Redis, Celery, RabbitMQ for task scheduling and caching to improve application performance.",
+      "Deployed in AWS using EC2, S3, RDS to ensure scalability and reliability.",
+      "Created the backend for a large scale POS application using Django Rest Framework.",
+      "Dockerized applications to ensure consistency across different environments and streamline the deployment process.",
+    ],
+  },
+  {
+    title: "Junior Front End Developer",
+    company_name: "ITbee Solution",
+    icon: itbee,
+    iconBg: "#383E56",
+    date: "August 2024- September 2024",
+    points: [
+      "Building and maintaining web applications using ReactJS, NextJS, and related technologies.",
+      "Collaborating with designers, product managers, and developers to deliver high-quality solutions.",
+      "Developing responsive and adaptive designs while ensuring compatibility across various browsers.",
+      "Engaging in code reviews and offering constructive feedback to improve code quality.",
+      "Integrating APIs to retrieve and display server-side data on the client interface.",
+    ],
+  },
+  {
+    title: "Internship",
     company_name: "Achintya Solutions",
     icon: achintya,
     iconBg: "#fff",
@@ -122,41 +172,20 @@ const experiences = [
       "Integrated API services to fetch data from the server and display it on the client-side.",
     ],
   },
-  {
-    title: "Junior Front End Developer",
-    company_name: "ITbee Solution",
-    icon: itbee,
-    iconBg: "#383E56",
-    date: "September 09- Ongoing",
-    points: [
-      "Building and maintaining web applications using ReactJS, NextJS, and related technologies.",
-      "Collaborating with designers, product managers, and developers to deliver high-quality solutions.",
-      "Developing responsive and adaptive designs while ensuring compatibility across various browsers.",
-      "Engaging in code reviews and offering constructive feedback to improve code quality.",
-      "Integrating APIs to retrieve and display server-side data on the client interface.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
   {
     testimonial:
-      "Walid was an exceptional Next.js developer at Achintya Solutions, consistently delivering innovative and high-quality work.",
-    name: "Achintya",
+      "Walid's technical skills, quick problem-solving abilities and immense work ethic are impressive, making them a valuable asset to any team.",
+    name: "Martijn Van Ruiten",
     designation: "CEO",
-    company: "Achintya Solutions",
-    image:
-      "https://media.licdn.com/dms/image/v2/D4D0BAQFdh-Y6aYX9_g/company-logo_100_100/company-logo_100_100/0/1714597349521/achintyasolutions_logo?e=1732147200&v=beta&t=goAQRPUh6nPetJ3O8Oq1fu53g8E1SlUfFXUQaFdHhpY",
-  },
-  {
-    testimonial:
-      "Walid's technical skills and problem-solving abilities are impressive, making them a valuable asset to any team.",
-    name: "Khalid Ibne Hasan",
-    designation: "Product Manager",
-    company: "Keyin College",
+    company: "Aqua Ware",
     image:
       "https://media.licdn.com/dms/image/v2/C5603AQGK9aT9HbX0_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1638926834700?e=1729728000&v=beta&t=ga5b6yqE0C3jxW7JFkWpipACOE7TgPrggP_kHBF0acU",
   },
+  
   {
     testimonial:
       "Walid combines deep technical expertise with a strong work ethic, consistently delivering exceptional results as I've noticed during his University period.",
@@ -166,9 +195,107 @@ const testimonials = [
     image:
       "https://media.licdn.com/dms/image/v2/D5635AQHe9d_MRl41bQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1715137251142?e=1724655600&v=beta&t=h3POhja_51N7yIWXM3Ub0_rVzBfVPkAqhZgnD0GQ4zQ",
   },
+  {
+    testimonial:
+      "Walid was an exceptional Next.js developer at Achintya Solutions, consistently delivering innovative and high-quality work.",
+    name: "Achintya",
+    designation: "CEO",
+    company: "Achintya Solutions",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4D0BAQFdh-Y6aYX9_g/company-logo_100_100/company-logo_100_100/0/1714597349521/achintyasolutions_logo?e=1732147200&v=beta&t=goAQRPUh6nPetJ3O8Oq1fu53g8E1SlUfFXUQaFdHhpY",
+  },
 ];
 
 const projects = [
+  {
+    name: "MCQ",
+    description:
+      "This is a live MCQ application where users can take exams on various subjects. It's a timed exam platform that provides instant feedback and detailed results analysis.",
+    tags: [
+      {
+        name: "Django ",
+        color: "green-text-gradient",
+      },
+      {
+        name: "DRF",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Socket.IO",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redis",
+        color: "blue-text-gradient",
+      },
+      {
+        name:"Celery",
+        color:"green-text-gradient"
+      },
+      {
+        name:"Docker",
+        color:"blue-text-gradient"
+      },
+      {
+        name:"Nginx",
+        color:"pink-text-gradient"
+      },
+      {
+        name:"RTK Query",
+        color:"orange-text-gradient"
+      }
+    ],
+    image: MCQ,
+    source_code_link:"https://github.com/Walid-IbneHasan/MCQ-Optimized",
+    live_link: "",
+  },
+  {
+    name: "CodeNerve",
+    description:
+      "This is a project for a Software Development Company. They provide various services regarding software development and IT solutions.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Framer Motion",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Optimistic Caching",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: CodeNerve,
+    source_code_link:"https://github.com/Walid-IbneHasan/codenerve-digital-fusion",
+    live_link: "https://www.codenerve.net/",
+  },
+  {
+    name: "Aqua Ware",
+    description:
+      "This is a project about Netherlands Water System Company. They provide various services regarding water supply and management in Netherlands.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux Toolkit",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: AquaWare,
+    source_code_link:"https://github.com/Walid-IbneHasan/Aqua-Ware",
+    live_link: "https://www.aquaware.nl/",
+  },
   {
     name: "New Gen Attractive UI Site",
     description:
@@ -306,28 +433,7 @@ const projects = [
     source_code_link: "https://github.com/Walid-IbneHasan/Landing-Page",
     live_link: "https://landing-page-mauve-phi.vercel.app/",
   },
-  {
-    name: "Split Bill",
-    description:
-      "About This is a simple react project where I can add friends and split the bill with them. In this project I can also see how much I have to pay to a certain friend considering who is paying the bill. This is a single page project to practice my react skills.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "state-management",
-        color: "green-text-gradient",
-      },
-      {
-        name: "hooks",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: SplitBill,
-    source_code_link: "https://github.com/Walid-IbneHasan/Split-Bill",
-    live_link: "https://split-bill-hazel.vercel.app/",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

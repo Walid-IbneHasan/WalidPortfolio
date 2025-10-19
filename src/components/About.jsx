@@ -8,7 +8,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
-    <motion.divs
+    <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
@@ -30,7 +30,7 @@ const ServiceCard = ({ index, title, icon }) => (
           {title}
         </h3>
       </div>
-    </motion.divs>
+    </motion.div>
   </Tilt>
 );
 
@@ -46,11 +46,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, NextJS and Three.js.
-        I'm a quick learner and collaborate closely with clients to create
-        efficient, scalable, and user-friendly solutions that solve real-world
-        problems. Let's work together to bring your ideas to life!
+        I'm a versatile software developer specializing in Python, Django, and AWS, with a strong focus on backend development, DevOps, and machine learning. I build scalable, data-driven applications and leverage tools like React for dynamic frontends when needed. My experience spans across data analysis, cloud infrastructure, and automation, enabling me to design end-to-end systems that are both robust and efficient. I’m passionate about solving real-world problems through clean architecture and intelligent use of technology.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

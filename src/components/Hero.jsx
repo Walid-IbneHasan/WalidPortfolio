@@ -42,9 +42,9 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Walid</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop website mostly
+            A Software Engineer, Data Analyst
             <br className="sm:block " />
-            using ReactJS, NextJS & ThreeJS
+            And AI Enthusiast.
           </p>
           <p className="sm:hidden mt-8">
             I've always been passionate about JS frameworks and libraries. But

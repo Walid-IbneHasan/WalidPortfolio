@@ -20,6 +20,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import django from "./tech/Django.png";
+import redis from "./tech/Redis.png";
+import aws from "./tech/AWS.png";
+import PowerBI from "./tech/powerbi.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -38,8 +44,17 @@ import iPhoneSiteRemodified from "./iPhoneSiteRemodified.png";
 import itbee from "./itbee.jpeg";
 import CodeSync5 from "./CodeSync5.png";
 import LandingPage from "./LandingPage.png";
+import AquaWare from "./AquaWare.png";
+import zerobyte from "./zerobyte.png";
+import remoteintegrity from "./remoteintegrity.jpeg";
+import CodeNerve from "./CodeNerve.png";
+import MCQ from "./MCQ.png";
+
 
 export {
+  AquaWare,
+  CodeNerve,
+  MCQ,
   logo,
   backend,
   creator,
@@ -53,6 +68,11 @@ export {
   figma,
   git,
   html,
+  python,
+  django,
+  redis,
+  aws,
+  PowerBI,
   javascript,
   mongodb,
   nodejs,
@@ -77,4 +97,6 @@ export {
   itbee,
   CodeSync5,
   LandingPage,
+  zerobyte,
+  remoteintegrity
 };
