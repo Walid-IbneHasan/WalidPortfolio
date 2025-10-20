@@ -65,7 +65,7 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="https://drive.google.com/drive/u/0/folders/1GqdUGFabwVpHk7RHuaUyhD7Di5T4-oJU"
+              href="https://drive.google.com/file/d/1_DVMpi6r7H05GKf0hPjGzhAp2IDziWBz/view?usp=drive_link"
               className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
               target="_blank"
             >

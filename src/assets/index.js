@@ -49,11 +49,13 @@ import zerobyte from "./zerobyte.png";
 import remoteintegrity from "./remoteintegrity.jpeg";
 import CodeNerve from "./CodeNerve.png";
 import MCQ from "./MCQ.png";
+import PowerBIDashboard from "./PowerBIDashboard.png";
 
 
 export {
   AquaWare,
   CodeNerve,
+  PowerBIDashboard,
   MCQ,
   logo,
   backend,
