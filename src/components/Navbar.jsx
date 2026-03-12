@@ -65,7 +65,7 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="https://drive.google.com/file/d/1_DVMpi6r7H05GKf0hPjGzhAp2IDziWBz/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1qetMBttuW07D9oTpMiSwqW7DT1W6yPH3/view?usp=drive_link"
               className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
               target="_blank"
             >
@@ -123,7 +123,7 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href="https://drive.google.com/file/d/13NKh9y0BmfCYhiPRMSxBuBEiYNPELci9/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1qetMBttuW07D9oTpMiSwqW7DT1W6yPH3/view?usp=drive_link"
                   className="text-secondary font-poppins font-medium cursor-pointer text-[16px]"
                   target="_blank"
                 >
