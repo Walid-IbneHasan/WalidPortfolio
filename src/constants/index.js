@@ -30,10 +30,8 @@ import {
   redis,
   aws,
   PowerBI,
-  AquaWare,
   CodeNerve,
   MCQ,
-  PowerBIDashboard
 } from "../assets";
 
 export const navLinks = [
@@ -180,16 +178,6 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Walid's technical skills, quick problem-solving abilities and immense work ethic are impressive, making them a valuable asset to any team.",
-    name: "Martijn Van Ruiten",
-    designation: "CEO",
-    company: "AquaWare",
-    image:
-      "https://media.licdn.com/dms/image/v2/C5603AQGK9aT9HbX0_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1638926834700?e=1729728000&v=beta&t=ga5b6yqE0C3jxW7JFkWpipACOE7TgPrggP_kHBF0acU",
-  },
-  
-  {
-    testimonial:
       "Walid combines deep technical expertise with a strong work ethic, consistently delivering exceptional results as I've noticed during his University period.",
     name: "Sagir Ahmed",
     designation: "Senior Developer",
@@ -274,54 +262,6 @@ const projects = [
     image: CodeNerve,
     source_code_link:"https://github.com/Walid-IbneHasan/codenerve-digital-fusion",
     live_link: "https://www.codenerve.net/",
-  },
-  {
-    name: "Aqua Ware",
-    description:
-      "This is a project about Netherlands Water System Company. They provide various services regarding water supply and management in Netherlands.",
-    tags: [
-      {
-        name: "NextJS",
-        color: "blue-text-gradient",
-      },
-
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Redux Toolkit",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: AquaWare,
-    source_code_link:"https://github.com/Walid-IbneHasan/Aqua-Ware",
-    live_link: "https://www.aquaware.nl/",
-  },
-  {
-    name:"Power BI Dashboard",
-    description:
-      "This project involves creating interactive Power BI dashboards to visualize complex datasets of government of Netherlands, enabling stakeholders to make data-driven decisions effectively.",
-    tags: [
-      {
-        name: "Power BI",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Data Visualization",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "DAX",
-        color: "green-text-gradient",
-      },
-      {
-        name:"Data Processing",
-        color:"pink-text-gradient"
-      },
-    ],
-    image: PowerBIDashboard,
-
   },
   {
     name: "New Gen Attractive UI Site",
